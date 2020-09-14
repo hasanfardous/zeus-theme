@@ -1,0 +1,1860 @@
+/*----------------------------------------------------
+@File: Default Styles
+@Author: UOSdesign
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+---------------------------------------------------- */
+/*=====================================================================
+@Template Name: sassco
+@Developed By: UOSdesign
+
+=====================================================================*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* big desktop :1500px. */
+/* Normal desktop :1200px. */
+/* Normal desktop :992px. */
+/* Tablet desktop :768px. */
+/* small mobile :320px. */
+/* Large Mobile :480px. */
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* 1. Theme default css */
+/* line 4, F:/HTML project/HTML/scss/_reset.scss */
+body {
+  font-family: "Karla", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 9, F:/HTML project/HTML/scss/_reset.scss */
+.container {
+  max-width: 1440px;
+}
+
+/* line 14, F:/HTML project/HTML/scss/_reset.scss */
+.img {
+  max-width: 100%;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 18, F:/HTML project/HTML/scss/_reset.scss */
+a,
+.button,
+button {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 23, F:/HTML project/HTML/scss/_reset.scss */
+a:focus,
+.button:focus, button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 28, F:/HTML project/HTML/scss/_reset.scss */
+a:focus {
+  text-decoration: none;
+}
+
+/* line 31, F:/HTML project/HTML/scss/_reset.scss */
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover {
+  text-decoration: none;
+}
+
+/* line 38, F:/HTML project/HTML/scss/_reset.scss */
+input:focus, button:focus {
+  outline: none;
+}
+
+/* line 41, F:/HTML project/HTML/scss/_reset.scss */
+a,
+button {
+  color: #fff;
+  outline: medium none;
+}
+
+/* line 46, F:/HTML project/HTML/scss/_reset.scss */
+h1, h2, h3, h4, h5 {
+  font-family: "Karla", sans-serif;
+  color: #1c1c1c;
+}
+
+/* line 50, F:/HTML project/HTML/scss/_reset.scss */
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+/* line 59, F:/HTML project/HTML/scss/_reset.scss */
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 63, F:/HTML project/HTML/scss/_reset.scss */
+li {
+  list-style: none;
+}
+
+/* line 66, F:/HTML project/HTML/scss/_reset.scss */
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #000000;
+  font-family: "Karla", sans-serif;
+}
+
+/* line 74, F:/HTML project/HTML/scss/_reset.scss */
+label {
+  color: #7e7e7e;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 80, F:/HTML project/HTML/scss/_reset.scss */
+*::-moz-selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 85, F:/HTML project/HTML/scss/_reset.scss */
+::-moz-selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 90, F:/HTML project/HTML/scss/_reset.scss */
+::selection {
+  background: #444;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* line 95, F:/HTML project/HTML/scss/_reset.scss */
+*::-webkit-input-placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+/* line 100, F:/HTML project/HTML/scss/_reset.scss */
+*:-ms-input-placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+/* line 105, F:/HTML project/HTML/scss/_reset.scss */
+*::-ms-input-placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+/* line 110, F:/HTML project/HTML/scss/_reset.scss */
+*::placeholder {
+  color: #cccccc;
+  font-size: 14px;
+  opacity: 1;
+}
+
+/* button style */
+/* line 118, F:/HTML project/HTML/scss/_reset.scss */
+.owl-carousel .owl-nav div {
+  background: #f2fcff;
+  height: 60px;
+  left: 0px;
+  line-height: 60px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 60px;
+  font-size: 12px;
+  color: #c7cfd2;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 153, F:/HTML project/HTML/scss/_reset.scss */
+.owl-carousel:hover .owl-nav div {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 156, F:/HTML project/HTML/scss/_reset.scss */
+.owl-carousel:hover .owl-nav div:hover {
+  color: #458efe;
+}
+
+/* line 165, F:/HTML project/HTML/scss/_reset.scss */
+.mb-85 {
+  margin-bottom: 85px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 165, F:/HTML project/HTML/scss/_reset.scss */
+  .mb-85 {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 165, F:/HTML project/HTML/scss/_reset.scss */
+  .mb-85 {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* line 165, F:/HTML project/HTML/scss/_reset.scss */
+  .mb-85 {
+    margin-bottom: 40px;
+  }
+}
+
+/* line 177, F:/HTML project/HTML/scss/_reset.scss */
+.mb-65 {
+  margin-bottom: 65px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 177, F:/HTML project/HTML/scss/_reset.scss */
+  .mb-65 {
+    margin-bottom: 20px;
+  }
+}
+
+/* line 183, F:/HTML project/HTML/scss/_reset.scss */
+.mt-80 {
+  margin-top: 80px;
+}
+
+/* line 186, F:/HTML project/HTML/scss/_reset.scss */
+.mt_30 {
+  margin-top: 30px;
+}
+
+/* line 189, F:/HTML project/HTML/scss/_reset.scss */
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+/* line 194, F:/HTML project/HTML/scss/_reset.scss */
+.home_2 #back-top a {
+  background: #4543de;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(69, 67, 222, 0.4);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(69, 67, 222, 0.4);
+  box-shadow: 0px 10px 20px 0px rgba(69, 67, 222, 0.4);
+}
+
+/* line 200, F:/HTML project/HTML/scss/_reset.scss */
+#back-top {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  cursor: pointer;
+  z-index: 9999999;
+  display: none;
+}
+
+/* line 207, F:/HTML project/HTML/scss/_reset.scss */
+#back-top a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  display: block;
+  color: #fff;
+  line-height: 40px;
+  background: #1539E9;
+  font-size: 15px;
+  border-radius: 30px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(21, 57, 233, 0.4);
+  -moz-box-shadow: 0px 10px 20px 0px rgba(21, 57, 233, 0.4);
+  box-shadow: 0px 10px 20px 0px rgba(21, 57, 233, 0.4);
+}
+
+/* line 223, F:/HTML project/HTML/scss/_reset.scss */
+.black_bg {
+  background: #0E0E0E;
+}
+
+/* line 226, F:/HTML project/HTML/scss/_reset.scss */
+.text_white {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 230, F:/HTML project/HTML/scss/_reset.scss */
+.font_24 {
+  font-size: 24px;
+}
+
+/* line 233, F:/HTML project/HTML/scss/_reset.scss */
+.font_13 {
+  font-size: 13px;
+}
+
+/* line 237, F:/HTML project/HTML/scss/_reset.scss */
+.line_24 {
+  line-height: 24px;
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* line 1, F:/HTML project/HTML/scss/_btn.scss */
+.boxed_btn {
+  background: #1539E9;
+  padding: 10px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+  padding: 22px 49px;
+  border: 1px solid transparent;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767.98px) {
+  /* line 1, F:/HTML project/HTML/scss/_btn.scss */
+  .boxed_btn {
+    padding: 22px 30px;
+  }
+}
+
+/* line 16, F:/HTML project/HTML/scss/_btn.scss */
+.boxed_btn:hover {
+  color: #1539E9;
+  border-color: #1539E9;
+  background: transparent;
+}
+
+/* line 23, F:/HTML project/HTML/scss/_btn.scss */
+.boxed_btn2 {
+  background: #1539E9;
+  padding: 10px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 700;
+  padding: 13.5px 40px;
+  border: 1px solid transparent;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767.98px) {
+  /* line 23, F:/HTML project/HTML/scss/_btn.scss */
+  .boxed_btn2 {
+    padding: 11.5px 30px;
+  }
+}
+
+/* line 38, F:/HTML project/HTML/scss/_btn.scss */
+.boxed_btn2:hover {
+  color: #1539E9;
+  border-color: #fff;
+  background: #fff;
+}
+
+/* line 44, F:/HTML project/HTML/scss/_btn.scss */
+.boxed_btn3 {
+  background: transparent;
+  padding: 10px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 700;
+  padding: 14px 40px;
+  border: 1px solid #fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767.98px) {
+  /* line 44, F:/HTML project/HTML/scss/_btn.scss */
+  .boxed_btn3 {
+    padding: 11.5px 30px;
+  }
+}
+
+/* line 59, F:/HTML project/HTML/scss/_btn.scss */
+.boxed_btn3:hover {
+  color: #000;
+  border-color: #fff;
+  background: #fff;
+}
+
+/* line 66, F:/HTML project/HTML/scss/_btn.scss */
+.line_btn {
+  font-size: 14px;
+  color: #000000;
+  font-weight: 700;
+  letter-spacing: 1.27273px;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+/* line 75, F:/HTML project/HTML/scss/_btn.scss */
+.line_btn i {
+  font-size: 10px;
+  color: #1539E9;
+  position: relative;
+  left: 0;
+  transition: .3s;
+  margin-left: 19px;
+}
+
+/* line 83, F:/HTML project/HTML/scss/_btn.scss */
+.line_btn:hover {
+  color: #000;
+}
+
+/* line 85, F:/HTML project/HTML/scss/_btn.scss */
+.line_btn:hover i {
+  left: 4px;
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* line 3, F:/HTML project/HTML/scss/_title.scss */
+.section_title.white_text h3 {
+  color: #fff;
+}
+
+/* line 7, F:/HTML project/HTML/scss/_title.scss */
+.section_title span {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  letter-spacing: 1.45455px;
+  line-height: 20px;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+/* line 17, F:/HTML project/HTML/scss/_title.scss */
+.section_title h3 {
+  font-size: 48px;
+  letter-spacing: -2px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* line 17, F:/HTML project/HTML/scss/_title.scss */
+  .section_title h3 {
+    font-size: 38px;
+    line-height: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 17, F:/HTML project/HTML/scss/_title.scss */
+  .section_title h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* line 31, F:/HTML project/HTML/scss/_title.scss */
+  .section_title h3 br {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* line 17, F:/HTML project/HTML/scss/_title.scss */
+  .section_title h3 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+/* line 41, F:/HTML project/HTML/scss/_title.scss */
+.section_title h4 {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.35;
+  color: #1c1c1c;
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* line 41, F:/HTML project/HTML/scss/_title.scss */
+  .section_title h4 {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 41, F:/HTML project/HTML/scss/_title.scss */
+  .section_title h4 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* line 55, F:/HTML project/HTML/scss/_title.scss */
+  .section_title h4 br {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* line 41, F:/HTML project/HTML/scss/_title.scss */
+  .section_title h4 {
+    font-size: 26px;
+  }
+}
+
+/* line 66, F:/HTML project/HTML/scss/_title.scss */
+.section_title.section_title2 h3 {
+  margin-bottom: 18px;
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+/* line 71, F:/HTML project/HTML/scss/_title.scss */
+.section_title.section_title2 p {
+  line-height: 1.67;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 8px;
+  color: #000000;
+}
+
+@media (max-width: 767.98px) {
+  /* line 78, F:/HTML project/HTML/scss/_title.scss */
+  .section_title.section_title2 p br {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 78, F:/HTML project/HTML/scss/_title.scss */
+  .section_title.section_title2 p br {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* line 78, F:/HTML project/HTML/scss/_title.scss */
+  .section_title.section_title2 p br {
+    display: none;
+  }
+}
+
+/* line 96, F:/HTML project/HTML/scss/_title.scss */
+.section_title_2 h3 {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.8px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* line 103, F:/HTML project/HTML/scss/_title.scss */
+.section_title_2 p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 32px;
+}
+
+/* line 111, F:/HTML project/HTML/scss/_title.scss */
+.mb-90 {
+  margin-bottom: 82px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 111, F:/HTML project/HTML/scss/_title.scss */
+  .mb-90 {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 111, F:/HTML project/HTML/scss/_title.scss */
+  .mb-90 {
+    margin-bottom: 50px;
+  }
+}
+
+/* line 121, F:/HTML project/HTML/scss/_title.scss */
+.pl-65 {
+  padding-left: 65px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 121, F:/HTML project/HTML/scss/_title.scss */
+  .pl-65 {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 121, F:/HTML project/HTML/scss/_title.scss */
+  .pl-65 {
+    padding-left: 0px;
+  }
+}
+
+/* line 131, F:/HTML project/HTML/scss/_title.scss */
+.pb-180 {
+  padding-bottom: 180px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 131, F:/HTML project/HTML/scss/_title.scss */
+  .pb-180 {
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 131, F:/HTML project/HTML/scss/_title.scss */
+  .pb-180 {
+    padding-bottom: 100px;
+  }
+}
+
+/* line 141, F:/HTML project/HTML/scss/_title.scss */
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+@media (max-width: 1200px) {
+  /* line 3, F:/HTML project/HTML/scss/_animation.scss */
+  [class*="hero-ani-"] {
+    display: none !important;
+  }
+}
+
+/* line 8, F:/HTML project/HTML/scss/_animation.scss */
+.amination_custom {
+  backface-visibility: hidden;
+  animation: jumping 9s ease-in-out 2s infinite alternate;
+  animation-delay: 1s;
+  transition: all .9s ease 5s;
+  user-select: none;
+}
+
+/* line 16, F:/HTML project/HTML/scss/_animation.scss */
+.amination_custom2 {
+  backface-visibility: hidden;
+  animation: jumping2 9s ease-in-out 2s infinite alternate;
+  animation-delay: 1s;
+  transition: all 1s ease 3s;
+  user-select: none;
+}
+
+/* line 24, F:/HTML project/HTML/scss/_animation.scss */
+.amination_custom3 {
+  backface-visibility: hidden;
+  animation: jumping3 9s ease-in-out 2s infinite alternate;
+  animation-delay: 1s;
+  transition: all 7s ease 2s;
+  user-select: none;
+}
+
+/* line 32, F:/HTML project/HTML/scss/_animation.scss */
+.amination_custom4 {
+  backface-visibility: hidden;
+  animation: jumping4 9s ease-in-out 2s infinite alternate;
+  animation-delay: 1s;
+  transition: all 8s ease 4s;
+  user-select: none;
+}
+
+/* line 40, F:/HTML project/HTML/scss/_animation.scss */
+.amination_custom10 {
+  backface-visibility: hidden;
+  animation: jumping10 9s ease-in-out 2s infinite alternate;
+  animation-delay: 1s;
+  transition: all 8s ease 4s;
+  user-select: none;
+}
+
+/* line 48, F:/HTML project/HTML/scss/_animation.scss */
+.amination_custom11 {
+  backface-visibility: hidden;
+  animation: jumping11 9s ease-in-out 2s infinite alternate;
+  animation-delay: 1s;
+  transition: all 8s ease 4s;
+  user-select: none;
+}
+
+@keyframes jumping {
+  0% {
+    transform: translateY(0px) translateX(0) rotate(0) scale(1);
+    opacity: .8;
+  }
+  25% {
+    transform: translateY(-10px) translateX(-10px) rotate(20deg) scale(0.8);
+    opacity: .9;
+  }
+  50% {
+    transform: translateY(-15px) translateX(-15px) rotate(10deg) scale(0.9);
+    opacity: .8;
+  }
+  75% {
+    transform: translateY(-20px) translateX(-20px) rotate(20deg) scale(0.75);
+    opacity: .6;
+  }
+  85% {
+    transform: translateY(-25px) translateX(-25px) rotate(20deg) scale(0.9);
+    opacity: .7;
+  }
+  100% {
+    transform: translateY(-15px) translateX(-15px) rotate(0) scale(0.95);
+    opacity: .85;
+  }
+}
+
+@keyframes jumping2 {
+  0% {
+    transform: translateY(0px) translateX(0) rotate(0) scale(1);
+    opacity: .5;
+  }
+  25% {
+    transform: translateY(-30px) translateX(10px) rotate(20deg) scale(0.8);
+    opacity: .8;
+  }
+  50% {
+    transform: translateY(15px) translateX(-15px) rotate(10deg) scale(0.7);
+    opacity: .8;
+  }
+  75% {
+    transform: translateY(30px) translateX(20px) rotate(20deg) scale(0.75);
+    opacity: .7;
+  }
+  100% {
+    transform: translateY(-15px) translateX(15px) rotate(0) scale(0.75);
+    opacity: .9;
+  }
+}
+
+@keyframes jumping3 {
+  0% {
+    transform: translateY(10px) translateX(0) rotate(0) scale(1);
+    opacity: .9;
+  }
+  20% {
+    transform: translateY(20px) translateX(10px) rotate(-20deg) scale(0.8);
+    opacity: .8;
+  }
+  40% {
+    transform: translateY(15px) translateX(-15px) rotate(10deg) scale(0.75);
+    opacity: .8;
+  }
+  40% {
+    transform: translateY(-15px) translateX(-25px) rotate(10deg) scale(0.5);
+    opacity: 1;
+  }
+  80% {
+    transform: translateY(-30px) translateX(20px) rotate(-20deg) scale(0.75);
+    opacity: .6;
+  }
+  100% {
+    transform: translateY(15px) translateX(15px) rotate(0) scale(0.95);
+    opacity: .7;
+  }
+}
+
+@keyframes jumping4 {
+  0% {
+    transform: translateY(-30px) translateX(20px) rotate(0) scale(1.2);
+    opacity: .7;
+  }
+  25% {
+    transform: translateY(-20px) translateX(10px) rotate(50deg) scale(0.6);
+    opacity: .8;
+  }
+  50% {
+    transform: translateY(15px) translateX(-15px) rotate(20deg) scale(0.5);
+    opacity: .9;
+  }
+  75% {
+    transform: translateY(30px) translateX(20px) rotate(50deg) scale(0.75);
+    opacity: .7;
+  }
+  100% {
+    transform: translateY(-15px) translateX(15px) rotate(0) scale(0.5);
+    opacity: .9;
+  }
+}
+
+@keyframes jumping10 {
+  0% {
+    transform: rotate(180deg);
+    display: block;
+  }
+  100% {
+    transform: rotate(30deg);
+    display: block;
+  }
+}
+
+@keyframes jumping11 {
+  0% {
+    transform: rotate(180deg) translate(-20px, 20px);
+    display: block;
+  }
+  100% {
+    transform: rotate(30deg) translate(0px, 0px);
+    display: block;
+  }
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* line 1, F:/HTML project/HTML/scss/_header.scss */
+.header_area {
+  padding: 0px 0px 0 34px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+/* line 8, F:/HTML project/HTML/scss/_header.scss */
+.header_area.header_static {
+  position: relative;
+  padding: 0px 35px 0 35px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 8, F:/HTML project/HTML/scss/_header.scss */
+  .header_area.header_static {
+    padding: 10px 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 8, F:/HTML project/HTML/scss/_header.scss */
+  .header_area.header_static {
+    padding: 10px 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  /* line 1, F:/HTML project/HTML/scss/_header.scss */
+  .header_area {
+    padding: 15px;
+  }
+}
+
+/* line 22, F:/HTML project/HTML/scss/_header.scss */
+.header_area .header__wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+}
+
+/* line 26, F:/HTML project/HTML/scss/_header.scss */
+.header_area .header__wrapper .header__left {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+/* line 37, F:/HTML project/HTML/scss/_header.scss */
+.header_area .main_menu ul li {
+  display: inline-block;
+  position: relative;
+}
+
+/* line 40, F:/HTML project/HTML/scss/_header.scss */
+.header_area .main_menu ul li:not(:last-child) {
+  margin-right: 40px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* line 40, F:/HTML project/HTML/scss/_header.scss */
+  .header_area .main_menu ul li:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+
+/* line 46, F:/HTML project/HTML/scss/_header.scss */
+.header_area .main_menu ul li:first-child {
+  margin-left: 50px;
+}
+
+/* line 49, F:/HTML project/HTML/scss/_header.scss */
+.header_area .main_menu ul li a {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 0;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+/* line 56, F:/HTML project/HTML/scss/_header.scss */
+.header_area .main_menu ul li a:hover {
+  color: #1539E9;
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* line 49, F:/HTML project/HTML/scss/_header.scss */
+  .header_area .main_menu ul li a {
+    font-size: 15px;
+    margin: 0 20px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  /* line 49, F:/HTML project/HTML/scss/_header.scss */
+  .header_area .main_menu ul li a {
+    margin: 0 15px;
+  }
+}
+
+/* line 68, F:/HTML project/HTML/scss/_header.scss */
+.header_area .main_menu ul li .submenu {
+  width: 200px;
+  position: absolute;
+  left: 0;
+  top: 120%;
+  background: #fff;
+  text-align: left;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.04);
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* line 79, F:/HTML project/HTML/scss/_header.scss */
+.header_area .main_menu ul li .submenu li {
+  display: block;
+  margin: 0;
+}
+
+/* line 83, F:/HTML project/HTML/scss/_header.scss */
+.header_area .main_menu ul li .submenu li a {
+  font-size: 15px;
+  line-height: 1.33;
+  color: #505050;
+  padding: 0;
+  font-weight: 400;
+  display: block;
+  margin: 0;
+  padding: 11px 20px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+  text-transform: capitalize;
+  left: 0;
+}
+
+/* line 96, F:/HTML project/HTML/scss/_header.scss */
+.header_area .main_menu ul li .submenu li a:hover {
+  left: 5px;
+  color: #1500FF;
+}
+
+/* line 104, F:/HTML project/HTML/scss/_header.scss */
+.header_area .main_menu ul li:hover > a {
+  color: #1500FF;
+}
+
+/* line 107, F:/HTML project/HTML/scss/_header.scss */
+.header_area .main_menu ul li:hover .submenu {
+  top: 100%;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 116, F:/HTML project/HTML/scss/_header.scss */
+.header_area .contact_wrap {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+@media (max-width: 767.98px) {
+  /* line 116, F:/HTML project/HTML/scss/_header.scss */
+  .header_area .contact_wrap {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 116, F:/HTML project/HTML/scss/_header.scss */
+  .header_area .contact_wrap {
+    display: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 116, F:/HTML project/HTML/scss/_header.scss */
+  .header_area .contact_wrap {
+    display: none !important;
+  }
+}
+
+/* line 130, F:/HTML project/HTML/scss/_header.scss */
+.header_area .contact_wrap .mobile_no p {
+  color: #505050;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0;
+  font-family: "Karla", sans-serif;
+}
+
+/* line 137, F:/HTML project/HTML/scss/_header.scss */
+.header_area .contact_wrap .mobile_no p span a {
+  color: #1500FF;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  /* line 130, F:/HTML project/HTML/scss/_header.scss */
+  .header_area .contact_wrap .mobile_no p {
+    font-size: 13px;
+    margin-right: 8px;
+  }
+}
+
+/* line 148, F:/HTML project/HTML/scss/_header.scss */
+.header_area .contact_wrap .signin a.sign_in {
+  font-size: 16px;
+  color: #505050;
+  font-weight: 600;
+  margin-right: 40px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* line 148, F:/HTML project/HTML/scss/_header.scss */
+  .header_area .contact_wrap .signin a.sign_in {
+    margin-right: 15px;
+  }
+}
+
+/* line 156, F:/HTML project/HTML/scss/_header.scss */
+.header_area .contact_wrap .signin a.sign_in:hover {
+  color: #4543DE;
+}
+
+/* line 161, F:/HTML project/HTML/scss/_header.scss */
+.header_area .contact_wrap .contact_btn {
+  margin-left: 48px;
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  /* line 161, F:/HTML project/HTML/scss/_header.scss */
+  .header_area .contact_wrap .contact_btn {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* line 161, F:/HTML project/HTML/scss/_header.scss */
+  .header_area .contact_wrap .contact_btn {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  /* line 169, F:/HTML project/HTML/scss/_header.scss */
+  .header_area .contact_wrap .contact_btn .boxed_btn {
+    padding: 12px 30px;
+  }
+}
+
+/* line 176, F:/HTML project/HTML/scss/_header.scss */
+.header_area.navbar_fixed {
+  background: #fff;
+  z-index: 90;
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: -70px;
+  left: 0;
+  right: 0;
+  transform: translateY(70px);
+  transition: transform 500ms ease, background 500ms ease;
+  -webkit-transition: transform 500ms ease, background 500ms ease;
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* line 1, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.slicknav_menu .slicknav_icon {
+  margin-right: 6px;
+  margin-top: 3px;
+  padding-bottom: 3px;
+  position: absolute;
+  top: 0px;
+}
+
+/* line 9, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.slicknav_nav a {
+  font-size: 14px;
+  color: #000;
+  font-family: "Karla", sans-serif;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+/* line 17, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.slicknav_nav .slicknav_row, .slicknav_nav a {
+  padding: 9.5px 15px;
+  margin: 0;
+}
+
+/* line 22, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.slicknav_arrow {
+  position: absolute;
+  right: 0;
+  width: 40px;
+  height: 37px;
+  text-align: center;
+  line-height: 40px;
+  top: 0;
+}
+
+/* line 31, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.slicknav_nav li {
+  display: block;
+  border-bottom: none;
+  position: relative;
+}
+
+/* line 37, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.mobile_menu .slicknav_nav ul.submenu {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background: #f7f7f7;
+}
+
+/* line 44, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.mobile_menu .slicknav_nav ul.submenu li a {
+  font-size: 16px;
+}
+
+/* line 49, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.mobile_menu .slicknav_nav .slicknav_arrow {
+  margin: 0;
+}
+
+/* line 54, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.slicknav_nav .slicknav_row:hover {
+  color: #1539E9;
+}
+
+/* line 57, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.slicknav_nav a:hover {
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  background: transparent;
+  color: #1539E9;
+}
+
+/* line 65, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.slicknav_menu .slicknav_icon-bar {
+  background-color: #363e51;
+  height: 2px;
+  margin: 5px 0;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  width: 25px;
+  position: relative;
+}
+
+/* line 75, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.slicknav_menu .slicknav_icon {
+  margin-right: 0px;
+}
+
+/* line 78, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.mobile_menu {
+  position: absolute;
+  right: 0;
+  width: 100%;
+  z-index: 9999999;
+}
+
+/* line 84, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.slicknav_btn {
+  right: 4px;
+  top: 11px;
+}
+
+/* line 88, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.slicknav_nav {
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 5px 7px 0 rgba(13, 0, 36, 0.07);
+  padding: 15px 6px;
+  margin-top: 10px;
+}
+
+/* line 95, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.slicknav_nav .slicknav_row, .slicknav_nav a {
+  padding: 6.5px 20px;
+  margin: 0;
+}
+
+/* line 99, F:/HTML project/HTML/scss/_mobile_menu.scss */
+.slicknav_nav .slicknav_row, .slicknav_nav a {
+  padding: 6.5px 20px;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* line 1, F:/HTML project/HTML/scss/_menu_animation.scss */
+.slicknav_btn {
+  padding: 0px;
+  border: 0px;
+}
+
+/* line 6, F:/HTML project/HTML/scss/_menu_animation.scss */
+.slicknav_btn .slicknav_icon-bar {
+  background-color: #1539E9;
+  -webkit-transition: all .5s linear;
+  -o-transition: all .5s linear;
+  transition: all .5s linear;
+  display: block;
+  width: 22px;
+  height: 2px;
+}
+
+/* line 16, F:/HTML project/HTML/scss/_menu_animation.scss */
+.home_2 .slicknav_btn .slicknav_icon-bar {
+  background-color: #4543de;
+}
+
+/* line 20, F:/HTML project/HTML/scss/_menu_animation.scss */
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+  margin-top: 5px;
+}
+
+/* line 24, F:/HTML project/HTML/scss/_menu_animation.scss */
+.slicknav_btn .slicknav_icon-bar:nth-child(2) {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+/* line 31, F:/HTML project/HTML/scss/_menu_animation.scss */
+.slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(2) {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* line 37, F:/HTML project/HTML/scss/_menu_animation.scss */
+.slicknav_btn .slicknav_icon-bar:nth-child(3) {
+  opacity: 1;
+}
+
+/* line 42, F:/HTML project/HTML/scss/_menu_animation.scss */
+.slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(3) {
+  opacity: 0;
+}
+
+/* line 46, F:/HTML project/HTML/scss/_menu_animation.scss */
+.slicknav_btn .slicknav_icon-bar:nth-child(1) {
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  top: 0;
+}
+
+/* line 53, F:/HTML project/HTML/scss/_menu_animation.scss */
+.slicknav_btn.slicknav_open .slicknav_icon-bar:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 7px;
+  position: relative;
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* line 1, F:/HTML project/HTML/scss/_footer.scss */
+footer {
+  position: relative;
+  background: #000000;
+}
+
+/* line 4, F:/HTML project/HTML/scss/_footer.scss */
+footer .footer_top_area {
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 4, F:/HTML project/HTML/scss/_footer.scss */
+  footer .footer_top_area {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+}
+
+/* line 11, F:/HTML project/HTML/scss/_footer.scss */
+footer .footer_top_area .footer_widget {
+  margin-bottom: 30px;
+}
+
+/* line 18, F:/HTML project/HTML/scss/_footer.scss */
+footer .footer_top_area .footer_widget .social_links ul li {
+  display: inline-block;
+}
+
+/* line 20, F:/HTML project/HTML/scss/_footer.scss */
+footer .footer_top_area .footer_widget .social_links ul li:not(:last-child) {
+  margin-right: 24px;
+}
+
+.footer_widget .footer_3.widget_nav_menu {
+  margin-bottom: 40px;
+}
+
+/* line 23, F:/HTML project/HTML/scss/_footer.scss */
+footer .footer_top_area .footer_widget .social_links ul li a {
+  font-size: 16px;
+}
+
+/* line 25, F:/HTML project/HTML/scss/_footer.scss */
+footer .footer_top_area .footer_widget .social_links ul li a:hover {
+  color: #fff;
+}
+
+/* line 33, F:/HTML project/HTML/scss/_footer.scss */
+footer .footer_top_area .footer_widget .footer_title h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.56);
+  margin-bottom: 24px;
+}
+
+/* line 42, F:/HTML project/HTML/scss/_footer.scss */
+footer .footer_top_area .footer_widget .link_list li a, footer .footer_top_area .footer_widget .menu li a {
+  font-size: 16px;
+  color: #fff;
+  line-height: 19px;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* line 49, F:/HTML project/HTML/scss/_footer.scss */
+footer .footer_top_area .footer_widget .link_list li a:hover {
+  color: #fff;
+}
+
+/* line 55, F:/HTML project/HTML/scss/_footer.scss */
+footer .footer_top_area .footer_widget h2 {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+  /* line 55, F:/HTML project/HTML/scss/_footer.scss */
+  footer .footer_top_area .footer_widget h2 {
+    font-size: 30px;
+  }
+}
+
+/* line 65, F:/HTML project/HTML/scss/_footer.scss */
+footer .footer_top_area .footer_widget p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0;
+  line-height: 26px;
+  margin-bottom: 32px;
+  margin-top: 12px;
+}
+
+/* line 75, F:/HTML project/HTML/scss/_footer.scss */
+footer .copyright_area {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 32px 0;
+}
+
+/* line 78, F:/HTML project/HTML/scss/_footer.scss */
+footer .copyright_area .logo {
+  margin-right: 35px;
+}
+
+/* line 82, F:/HTML project/HTML/scss/_footer.scss */
+footer .copyright_area .copy_right_text p {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  line-height: 22px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 81, F:/HTML project/HTML/scss/_footer.scss */
+  footer .copyright_area .copy_right_text {
+    margin-bottom: 15px;
+  }
+}
+
+/* line 93, F:/HTML project/HTML/scss/_footer.scss */
+footer .copyright_area .copy_right_links {
+  text-align: right;
+}
+
+@media (max-width: 767.98px) {
+  /* line 93, F:/HTML project/HTML/scss/_footer.scss */
+  footer .copyright_area .copy_right_links {
+    text-align: center;
+  }
+}
+
+/* line 98, F:/HTML project/HTML/scss/_footer.scss */
+footer .copyright_area .copy_right_links li {
+  display: inline-block;
+}
+
+/* line 101, F:/HTML project/HTML/scss/_footer.scss */
+footer .copyright_area .copy_right_links li a {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 700;
+}
+
+/* line 105, F:/HTML project/HTML/scss/_footer.scss */
+footer .copyright_area .copy_right_links li:not(:last-child) a {
+  margin-right: 32px;
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* line 2, F:/HTML project/HTML/scss/_banner.scss */
+.banner_area {
+  position: relative;
+  height: 100vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  background: #F8F8F8;
+}
+
+/* line 9, F:/HTML project/HTML/scss/_banner.scss */
+.banner_area .banner_text span {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+  letter-spacing: 1.45455px;
+  display: block;
+  margin-bottom: 14px;
+}
+
+/* line 18, F:/HTML project/HTML/scss/_banner.scss */
+.banner_area .banner_text h3 {
+  font-size: 84px;
+  font-weight: 700;
+  letter-spacing: -2.2px;
+  color: #000000;
+  line-height: 90px;
+  margin-bottom: 0px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 18, F:/HTML project/HTML/scss/_banner.scss */
+  .banner_area .banner_text h3 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* line 18, F:/HTML project/HTML/scss/_banner.scss */
+  .banner_area .banner_text h3 {
+    font-size: 40px;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 18, F:/HTML project/HTML/scss/_banner.scss */
+  .banner_area .banner_text h3 {
+    font-size: 35px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+}
+
+/* line 42, F:/HTML project/HTML/scss/_banner.scss */
+.banner_area .banner_text .site_link_form h4 {
+  font-size: 20px;
+  font-weight: #1c1c1c;
+  font-weight: 600;
+  margin-bottom: 23px;
+}
+
+/* line 49, F:/HTML project/HTML/scss/_banner.scss */
+.banner_area .banner_text .site_link_form form {
+  display: inline-block;
+}
+
+/* line 51, F:/HTML project/HTML/scss/_banner.scss */
+.banner_area .banner_text .site_link_form form input {
+  height: 60px;
+  width: 215px;
+  border: 1px solid #cccccc;
+  padding-left: 25px;
+  border-radius: 5px;
+  margin-right: 15px;
+  color: #000;
+}
+
+@media (max-width: 767.98px) {
+  /* line 51, F:/HTML project/HTML/scss/_banner.scss */
+  .banner_area .banner_text .site_link_form form input {
+    height: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* line 51, F:/HTML project/HTML/scss/_banner.scss */
+  .banner_area .banner_text .site_link_form form input {
+    width: 170px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 51, F:/HTML project/HTML/scss/_banner.scss */
+  .banner_area .banner_text .site_link_form form input {
+    width: 200px;
+    height: 50px;
+  }
+}
+
+/* line 72, F:/HTML project/HTML/scss/_banner.scss */
+.banner_area .banner_text .site_link_form form input::placeholder {
+  color: #919191;
+}
+
+/* line 76, F:/HTML project/HTML/scss/_banner.scss */
+.banner_area .banner_text .site_link_form form button {
+  background: #458efe;
+  display: inline-block;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media (min-width: 992px) and (max-width: 1199.99px) {
+  /* line 76, F:/HTML project/HTML/scss/_banner.scss */
+  .banner_area .banner_text .site_link_form form button {
+    padding: 13px 25px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 76, F:/HTML project/HTML/scss/_banner.scss */
+  .banner_area .banner_text .site_link_form form button {
+    padding: 13px 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  /* line 76, F:/HTML project/HTML/scss/_banner.scss */
+  .banner_area .banner_text .site_link_form form button {
+    padding: 13px 40px;
+    width: 100%;
+  }
+}
+
+/* line 95, F:/HTML project/HTML/scss/_banner.scss */
+.banner_area .banner_text .site_link_form form button:hover {
+  color: #458efe;
+  border-color: #458efe;
+  background: transparent;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  /* line 104, F:/HTML project/HTML/scss/_banner.scss */
+  .banner_area .banner_product {
+    display: none !important;
+  }
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* line 1, F:/HTML project/HTML/scss/_about.scss */
+.about_area {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  /* line 1, F:/HTML project/HTML/scss/_about.scss */
+  .about_area {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* line 8, F:/HTML project/HTML/scss/_about.scss */
+.about_area .about_area_left .banner_thumb {
+  margin-right: 30px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 8, F:/HTML project/HTML/scss/_about.scss */
+  .about_area .about_area_left .banner_thumb {
+    margin-right: 0;
+  }
+}
+
+/* line 15, F:/HTML project/HTML/scss/_about.scss */
+.about_area .about_area_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 500px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 15, F:/HTML project/HTML/scss/_about.scss */
+  .about_area .about_area_right {
+    padding: 30px 30px 0 30px;
+  }
+}
+
+/* line 23, F:/HTML project/HTML/scss/_about.scss */
+.about_area .about_area_right p {
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+/* line 30, F:/HTML project/HTML/scss/_about.scss */
+.section_padding {
+  padding: 150px 0;
+}
+
+@media (max-width: 767.98px) {
+  /* line 30, F:/HTML project/HTML/scss/_about.scss */
+  .section_padding {
+    padding: 50px 0;
+  }
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* line 1, F:/HTML project/HTML/scss/_service.scss */
+.service_area {
+  padding: 160px 0;
+}
+
+@media (max-width: 767.98px) {
+  /* line 1, F:/HTML project/HTML/scss/_service.scss */
+  .service_area {
+    padding: 60px 0;
+  }
+}
+
+/* line 6, F:/HTML project/HTML/scss/_service.scss */
+.service_area .servie_group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 80px;
+}
+
+@media (max-width: 767.98px) {
+  /* line 6, F:/HTML project/HTML/scss/_service.scss */
+  .service_area .servie_group {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    margin-top: 40px;
+  }
+}
+
+/* line 16, F:/HTML project/HTML/scss/_service.scss */
+.service_area .servie_group .single_service h3 {
+  font-size: 24px;
+  color: #fff;
+  letter-spacing: -0.8px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 8px;
+  margin-top: 32px;
+}
+
+/* line 25, F:/HTML project/HTML/scss/_service.scss */
+.service_area .servie_group .single_service p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  opacity: .8;
+}
+
+/*----------------------------------------------------*/
+/*----------------------------------------------------*/
+/* line 1, F:/HTML project/HTML/scss/_client.scss */
+.client_area {
+  padding: 120px 0;
+  background: #fff;
+}
+
+@media (max-width: 767.98px) {
+  /* line 1, F:/HTML project/HTML/scss/_client.scss */
+  .client_area {
+    padding: 50px 0;
+  }
+}
+
+/* line 7, F:/HTML project/HTML/scss/_client.scss */
+.client_area .brand_wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  margin-top: 100px;
+}
+
+.client_area .brand_wrap img {
+  -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+  -moz-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+  filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+
+.client_area .brand_wrap img:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+@media (max-width: 767.98px) {
+  /* line 7, F:/HTML project/HTML/scss/_client.scss */
+  .client_area .brand_wrap {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 580px) and (max-width: 767.98px) {
+  /* line 7, F:/HTML project/HTML/scss/_client.scss */
+  .client_area .brand_wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* line 18, F:/HTML project/HTML/scss/_client.scss */
+.client_area .brand_wrap .single_brand {
+  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  /* line 20, F:/HTML project/HTML/scss/_client.scss */
+  .client_area .brand_wrap .single_brand img {
+    width: auto;
+  }
+}
+
+/*----------------------------------------------------*/
+
+/*# sourceMappingURL=style.css.map */
